@@ -19,7 +19,7 @@ class Parking extends Model
     ];
 
     protected $casts = [
-        'start_time',
-        'stop_time'
+        'start_time' => 'datetime',
+        'stop_time' => 'datetime'
     ];
 }
